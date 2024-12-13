@@ -126,3 +126,43 @@ html, body{
 .container h1 span{
     font-style: italic;
 }
+
+@media (max-width: 447px) {
+    .loader{
+        width: 100%;
+        position: relative;
+    }
+    .circles{
+        position: absolute;
+        left: 5rem;
+        bottom: 5rem;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+    .circle-inner{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 200px;
+    }
+    
+    .circle-inner-rotator{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%) scale(0);
+        width: 112.5px;
+        height: 112.5px;
+        background: none;
+        border: 1px solid var(--circle-outline);
+        border-radius: 100%;
+    }
+    .container h1{
+        font-family: "Saol Display";
+        font-weight: 400;
+        font-size: 4.5rem;
+        letter-spacing: -0.5rem;
+    }
+}
