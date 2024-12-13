@@ -30,6 +30,7 @@ html, body{
     position: fixed;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
     color: var(--circle-outline);
     padding: 2rem 4rem;
     font-size: 10vw;
@@ -86,7 +87,7 @@ html, body{
     transform: translateX(-50%) scale(0);
     width: 162.5px;
     height: 162.5px;
-    background-color: none;
+    background: none;
     border: 1px solid var(--circle-outline);
     border-radius: 100%;
 }
@@ -99,7 +100,7 @@ html, body{
     height: 0px;
     display: none;
     background: none;
-    border: 1pxp solid var(--circle-outline);
+    border: 1px solid var(--circle-outline);
     transform-origin: bottom;
 }
 

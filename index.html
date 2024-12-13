@@ -10,9 +10,9 @@
 <body>
     <div class="loader">
         <h1 class="counter">0</h1>
-
+ 
         <div class="site-teaser">
-            <span>Use headphones for better experience</span>
+            <span>Remember to press it</span>
         </div>
 
         <div class="circles">
@@ -25,7 +25,7 @@
     
     <a href="./portfolio.html">
         <div class="container">
-        <h1>H<span>i</span> it's Ken</h1>
+        <h1>H<span>i</span>, Get <span>i</span>n</h1>
         </div>
     </a>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -55,6 +55,12 @@
         }
         startLoader();
 
+        gsap.from(".circles", 2, {
+            top: "-100%",
+            ease: "elastic.out",
+            delay: "0.5",
+        });
+
         gsap.from(".circle-inner", 1, {
             width: "75px",
             height: "75px",
@@ -63,7 +69,7 @@
         });
 
         gsap.to(".circle-inner-rotator", 1, {
-            scake: 1,
+            scale: 1,
             ease: "power4.inOut",
             delay: 2.5,
         });
@@ -111,7 +117,7 @@
     });
 
     gsap.to(".block", 1.5, {
-        width: "0px",
+        height: "0px",
         ease: "power4.inOut",
         delay: 6,
     });
