@@ -363,7 +363,7 @@ span {
     justify-content: center; /* Center align */
     align-items: center; /* Vertically center */
     gap: 8rem; /* Space between image and content */
-    background-color: #9c9090;
+    background-color: #cebfbf;
     flex-direction: row; /* Ensure text and image are in rows */
     padding: 5rem 9%; /* Add more padding for spacing */
     
