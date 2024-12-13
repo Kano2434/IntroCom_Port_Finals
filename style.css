@@ -36,6 +36,15 @@ body {
     
 }
 
+.logo {
+    font-size: 3rem;
+    font-style: italic;
+    color: var(--text-color);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
 header {
     position: fixed;
     top: 0;
