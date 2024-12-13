@@ -36,21 +36,19 @@ body {
     
 }
 
-.logo {
-    font-size: 3rem;
-    font-style: italic;
-    color: var(--text-color);
-    font-weight: 800;
-    cursor: pointer;
-    transition: 0.3s ease;
+.logo img {
+    height: 20px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+    margin-bottom: 0px;
 }
 
 header {
     position: fixed;
     top: 0;
     left: 0;
+    height: 75px;
     width: 100%;
-    padding: 1.4rem 12% 1.4rem;
+    padding: 9px 12% 9px;
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     display: flex;
@@ -283,7 +281,7 @@ span {
 }
 
 .home-content h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .home-content p {
@@ -410,14 +408,14 @@ span {
 @media (max-width: 995px) {
     .aboutme {
         flex-direction: column; /* Stack image and text on smaller screens */
-        gap: 4rem; /* Adjust gap */
+        gap: 1rem; /* Adjust gap */
         text-align: center;
     }
     .aboutme-content {
         max-width: 90%;
     }
     .aboutme-content h2 {
-        margin-top: 90px;
+        margin-top: 50px;
         font-size: 4rem; /* Smaller heading for mobile */
     }
 }
@@ -498,8 +496,8 @@ span {
     gap: 2.5rem;
 }
 
-.skills-box{
-    background-color: var(--nav-color);
+.skills-box{ 
+    background-color: #700000;
     height: 300px;
     border-radius: 3rem;
     cursor: pointer;
@@ -563,7 +561,7 @@ span {
         gap: 2rem;
     }
     .skills-box {
-        height: auto;
+        height: 250px;
     }
 }
 
@@ -954,7 +952,7 @@ footer{
     bottom: 0;
     background: linear-gradient(to right, #00093c, #2b0b00);
     color: #fff;
-    padding: 100px 0 30px;
+    padding: 70px 0 30px;
     border-top-left-radius: 125px;
     font-size: 13px;
     line-height: 20px;
@@ -978,8 +976,13 @@ footer{
 }
 
 .logo{
-    width: 80px;
-    margin-bottom: 30px;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+.logo-foot{
+    width:300px;
+    margin: 40px 0;
 }
 
 .col h3{
